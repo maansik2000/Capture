@@ -9,6 +9,7 @@ import VideoSec from "../components/VideoSec";
 import SkillSection from "../components/SkillSection";
 import ProjectSection from "../components/ProjectSection";
 import PricingSection from "../components/PricingSection";
+import Showcase from "../components/Showcase";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <SkillSection />
       <ProjectSection />
       <PricingSection />
+      <Showcase />
       <FaqSection />
 
       <ScrollTop />

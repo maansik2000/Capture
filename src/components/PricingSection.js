@@ -109,7 +109,7 @@ function PricingSection() {
 
 const Pricing = styled(motion.div)`
   color: white;
-  margin: 30px;
+  margin: 80px;
   h1 {
     font-size: 40px;
     text-align: center;
@@ -117,6 +117,7 @@ const Pricing = styled(motion.div)`
   }
   @media (max-width: 1080px) {
     display: block;
+    margin: 30px;
     h1 {
       font-size: 30px;
     }
